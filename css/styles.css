@@ -1,0 +1,50 @@
+body {
+  background-color: #F8F1F1;
+}
+
+h1 {
+  color: #EB5E0B;
+  font-size: 100px;
+  font-family: fantasy;
+  text-align: center;
+  transition: font-size 2s, color 2s;
+}
+
+h1:hover {
+  font-size: 200px;
+  color: #5EAAA8;
+}
+
+h2 {
+  background-color: #EB5E0B;
+  text-align: center;
+  color: #F8F1F1;
+}
+
+h3 {
+  color: #5EAAA8;
+  text-align: center;
+}
+
+h4 {
+  background-color: #EB5E0B;
+  color: #F8F1F1;
+  text-align: center;
+}
+
+img {
+  background-color: #ffffff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+img:hover {
+  background-color: #5EAAA8;
+  width: 400px;
+  height: 400px;
+  transform: rotate(360deg);
+}
